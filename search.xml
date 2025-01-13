@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>dfs</title>
+      <link href="/posts/4a345649/"/>
+      <url>/posts/4a345649/</url>
+      
+        <content type="html"><![CDATA[<h1 id="DFS基础"><a href="#DFS基础" class="headerlink" title="DFS基础"></a>DFS基础</h1><h2 id="DFS和n重循环"><a href="#DFS和n重循环" class="headerlink" title="DFS和n重循环"></a>DFS和n重循环</h2><h3 id="模板"><a href="#模板" class="headerlink" title="模板"></a>模板</h3><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">dfs</span>(<span class="params">depth</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    :param depth: 记录当前深度</span></span><br><span class="line"><span class="string">    :return </span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">if</span> depth == N:</span><br><span class="line">      <span class="comment"># N重循环最内层执行的代码</span></span><br><span class="line">        <span class="keyword">return</span> <span class="comment"># 结束条件</span></span><br><span class="line">    <span class="comment"># 每重循环进行的枚举选择</span></span><br></pre></td></tr></table></figure><h3 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h3><h4 id="1-打印相加为X的非严格递增n位序列"><a href="#1-打印相加为X的非严格递增n位序列" class="headerlink" title="1. 打印相加为X的非严格递增n位序列"></a>1. 打印相加为X的非严格递增n位序列</h4><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">dfs</span>(<span class="params">depth, last_value</span>):</span><br><span class="line">    <span class="comment">#depth:表示当前处于第depth层</span></span><br><span class="line">    <span class="comment">#递归入口</span></span><br><span class="line">    <span class="keyword">if</span> depth == n:</span><br><span class="line">        <span class="comment">#判断是否满足条件</span></span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">sum</span>(path) != x:</span><br><span class="line">            <span class="keyword">return</span> </span><br><span class="line">        </span><br><span class="line">        <span class="built_in">print</span>(path)</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(last_value,x+<span class="number">1</span>):</span><br><span class="line">        path[depth] = i</span><br><span class="line">        dfs(depth+<span class="number">1</span>,i)</span><br><span class="line"></span><br><span class="line">x = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line">n = <span class="built_in">int</span>(<span class="built_in">input</span>())</span><br><span class="line"></span><br><span class="line"><span class="comment"># path[i]表示第i个位置的值</span></span><br><span class="line">path = [<span class="number">0</span>]*n</span><br><span class="line"><span class="comment"># x = 6</span></span><br><span class="line"><span class="comment"># n = 3</span></span><br><span class="line"><span class="comment"># [0,0,0]</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">dfs(<span class="number">0</span>,<span class="number">1</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> dfs </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>电子技术的作用</title>
       <link href="/posts/1/"/>
       <url>/posts/1/</url>
