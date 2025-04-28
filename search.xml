@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>self-introduction</title>
+      <link href="/posts/456132333/"/>
+      <url>/posts/456132333/</url>
+      
+        <content type="html"><![CDATA[<h1 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h1><p>大家好，非常开心，能够在这里和大家见面。</p><p>我再次希望向大家介绍一下我的个人代码托管平台，GitHub和gitee。</p><p>如果大家感兴趣，可以前往看看，希望能够对于你有所帮助</p><h1 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a><a href="https://github.com/pridelizihao">GitHub</a></h1><h1 id="Gitee"><a href="#Gitee" class="headerlink" title="Gitee"></a><a href="https://gitee.com/pridelzh">Gitee</a></h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> introduction </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> self-introduction </tag>
+            
+            <tag> introduction </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>多重背包问题</title>
       <link href="/posts/202501121200/"/>
       <url>/posts/202501121200/</url>
@@ -20,9 +47,9 @@
       
         <tags>
             
-            <tag> 学习 </tag>
-            
             <tag> 算法 </tag>
+            
+            <tag> 学习 </tag>
             
             <tag> 蓝桥杯 </tag>
             

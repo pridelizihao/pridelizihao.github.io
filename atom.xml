@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-02-10T04:00:00.000Z</updated>
+  <updated>2025-04-28T02:20:40.145Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>self-introduction</title>
+    <link href="http://example.com/posts/456132333/"/>
+    <id>http://example.com/posts/456132333/</id>
+    <published>2025-04-28T00:00:00.000Z</published>
+    <updated>2025-04-28T02:20:40.145Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h1><p>大家好，非常开心，能够在这里和大家见面。</p><p>我再次希望向大家介绍一下我的个人代码托管平台，GitHub和gitee。</p><p>如果大家感兴趣，可以前往看看，希望能够对于你有所帮助</p><h1 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a><a href="https://github.com/pridelizihao">GitHub</a></h1><h1 id="Gitee"><a href="#Gitee" class="headerlink" title="Gitee"></a><a href="https://gitee.com/pridelzh">Gitee</a></h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;自我介绍&quot;&gt;&lt;a href=&quot;#自我介绍&quot; class=&quot;headerlink&quot; title=&quot;自我介绍&quot;&gt;&lt;/a&gt;自我介绍&lt;/h1&gt;&lt;p&gt;大家好，非常开心，能够在这里和大家见面。&lt;/p&gt;
+&lt;p&gt;我再次希望向大家介绍一下我的个人代码托管平台，GitHub和gite</summary>
+      
+    
+    
+    
+    <category term="introduction" scheme="http://example.com/categories/introduction/"/>
+    
+    
+    <category term="self-introduction" scheme="http://example.com/tags/self-introduction/"/>
+    
+    <category term="introduction" scheme="http://example.com/tags/introduction/"/>
+    
+  </entry>
   
   <entry>
     <title>多重背包问题</title>
@@ -36,9 +63,9 @@
     <category term="大学" scheme="http://example.com/categories/%E5%A4%A7%E5%AD%A6/"/>
     
     
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
     <category term="算法" scheme="http://example.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
     <category term="蓝桥杯" scheme="http://example.com/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
     
