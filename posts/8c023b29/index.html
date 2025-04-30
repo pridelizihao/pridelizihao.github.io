@@ -18,7 +18,7 @@
   localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
   translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
   noticeOutdate: undefined,
-  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
   copy: {
     success: '复制成功',
     error: '复制错误',
@@ -58,7 +58,7 @@
   pageFillDescription: 'DFS剪枝简介, 实例一：学生分队问题, 问题描述, 解题思路剪枝简介剪枝是一种启发式搜索算法它通过对搜索树进行剪枝来减少搜索树的大小从而减少搜索时间剪枝的基本思想是在搜索树的每一步都要判断是否可以直接跳过某些分支从而减少搜索树的大小具体来说剪枝有以下几种方法剪枝准则在搜索树的每一步都要判断是否可以直接跳过某些分支从而减少搜索树的大小启发式函数启发式函数是指对节点的评估函数它可以帮助搜索算法更好地选择下一步要探索的节点代价估计代价估计是指估计节点的代价并据此来判断是否应该继续探索该节点的子节点动态规划动态规划是指利用搜索树的结构性质对搜索树进行预处理从而减少搜索树的大小启发式搜索启发式搜索是指利用启发式函数对搜索树进行排序从而减少搜索树的大小备忘录备忘录是指在搜索树的每一步都记录下已经探索过的节点从而减少搜索树的大小并行搜索并行搜索是指在多线程或多进程环境下对搜索树进行搜索从而减少搜索树的大小剪枝策略剪枝策略是指对搜索树进行剪枝从而减少搜索树的大小多目标搜索多目标搜索是指在搜索树的每一步都要同时考虑多个目标从而减少搜索树的大小实例一学生分队问题问题描述数字王国开学了它们也和我们人类一样有开学前的军训现在一共有名学生每个学生有自己的一个名字数字王国里的名字就是一个正整数注意学生们可能出现重名的情况此时叛逆教官来看了之后感觉十分别扭决定将学生重新分队排队规则为将学生分成若干队每队里面至少一个学生且每队里面学生的名字不能出现倍数关系注意名字相同也算是倍数关系现在请你帮忙算算最少可以分成几队例有名学生最少可以分成共队解题思路最优解的剪枝如果当前分组状态已经比大则直接返回当前是第层每个学生的基础操作遍历每个分组可行性剪枝单独作为一组学生分组每个元素是一个列表表示一个分组',
   isPost: true,
   isHome: false,
-  isHighlightShrink: false,
+  isHighlightShrink: true,
   isToc: true,
   postUpdate: '2025-01-26 17:15:08',
   postMainColor: '',
