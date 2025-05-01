@@ -65,9 +65,9 @@
     
     <category term="学习" scheme="https://pridelizihao.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="算法" scheme="https://pridelizihao.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
     <category term="蓝桥杯" scheme="https://pridelizihao.github.io/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    <category term="算法" scheme="https://pridelizihao.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
@@ -155,9 +155,9 @@
     <category term="学习" scheme="https://pridelizihao.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="dfs" scheme="https://pridelizihao.github.io/tags/dfs/"/>
-    
     <category term="算法" scheme="https://pridelizihao.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="dfs" scheme="https://pridelizihao.github.io/tags/dfs/"/>
     
   </entry>
   
