@@ -15,6 +15,8 @@
           
           <category> introduction </category>
           
+          <category> 生活 </category>
+          
       </categories>
       
       
@@ -49,9 +51,9 @@
             
             <tag> 学习 </tag>
             
-            <tag> 算法 </tag>
-            
             <tag> 蓝桥杯 </tag>
+            
+            <tag> 算法 </tag>
             
         </tags>
       
@@ -155,9 +157,9 @@
       
         <tags>
             
-            <tag> dfs </tag>
-            
             <tag> 算法 </tag>
+            
+            <tag> dfs </tag>
             
         </tags>
       
@@ -176,6 +178,8 @@
       <categories>
           
           <category> 电子技术 </category>
+          
+          <category> 开发 </category>
           
       </categories>
       
