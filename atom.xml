@@ -6,7 +6,7 @@
   <link href="https://pridelizihao.github.io/atom.xml" rel="self"/>
   
   <link href="https://pridelizihao.github.io/"/>
-  <updated>2025-05-02T09:51:24.343Z</updated>
+  <updated>2025-05-05T06:13:33.447Z</updated>
   <id>https://pridelizihao.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的图床探索之旅：从踩坑到最优解</title>
+    <link href="https://pridelizihao.github.io/2025/05/05/post2/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
+    <id>https://pridelizihao.github.io/2025/05/05/post2/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/</id>
+    <published>2025-05-05T02:00:00.000Z</published>
+    <updated>2025-05-05T06:13:33.447Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="我的图床探索之旅：从踩坑到最优解"><a href="#我的图床探索之旅：从踩坑到最优解" class="headerlink" title="我的图床探索之旅：从踩坑到最优解"></a>我的图床探索之旅：从踩坑到最优解</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>搭建个人博客时，图床的选择让我走了不少弯路。经过几天的反复测试，我终于找到了一套稳定高效的解决方案。本文将详细介绍我的探索历程，希望能帮助到有同样需求的朋友。</p><h2 id="一、云服务商方案体验"><a href="#一、云服务商方案体验" class="headerlink" title="一、云服务商方案体验"></a>一、云服务商方案体验</h2><h3 id="1-阿里云OSS"><a href="#1-阿里云OSS" class="headerlink" title="1. 阿里云OSS"></a>1. 阿里云OSS</h3><p><strong>使用体验</strong>：</p><ul><li>上传速度：★★★★☆</li><li>访问速度：★★★★★</li><li>管理界面：★★★☆☆</li></ul><p><strong>痛点</strong>：</p><ol><li>备案流程繁琐，耗时3天才完成，一般人不太容易拿到域名的备案，需要域名费用＋对象存储费用+服务器费用，其中服务器费用太过巨大</li><li>费用计算复杂，一不小心就会超支</li><li>防盗链设置不够灵活</li></ol><h3 id="2-腾讯云COS"><a href="#2-腾讯云COS" class="headerlink" title="2. 腾讯云COS"></a>2. 腾讯云COS</h3><p><strong>使用体验</strong>：</p><ul><li>上传速度：★★★★★</li><li>访问速度：★★★★☆</li><li>管理界面：★★★★☆</li></ul><p><strong>痛点</strong>：</p><ol><li>与阿里云类似需要备案</li><li>API文档不够友好</li></ol><h2 id="3-cloudfare-R2存储"><a href="#3-cloudfare-R2存储" class="headerlink" title="3.cloudfare R2存储"></a>3.cloudfare R2存储</h2><p>总结</p><ol><li>这个听说很好用，但是有一个致命缺点，你需要有信用卡或者PayPal账号</li><li>虽然国内的银联卡理论上也可以注册，但是国内的卡没有安全码，注册PayPal也有一定困难</li></ol><h2 id="二、成品图床深度评测"><a href="#二、成品图床深度评测" class="headerlink" title="二、成品图床深度评测"></a>二、成品图床深度评测</h2><h3 id="1-SM-MS"><a href="#1-SM-MS" class="headerlink" title="1. SM.MS"></a>1. <a href="https://sm.ms/">SM.MS</a></h3><p><strong>优点</strong>：</p><ul><li>开箱即用</li><li>国内访问速度快</li><li>支持API调用</li></ul><p><strong>致命缺陷</strong>：</p><ul><li>免费版5GB空间很快用完</li><li>图片管理功能简陋</li><li>不支持批量操作</li><li>这个是全外文的，感觉有种不靠谱的感觉，不建议大家使用</li></ul><h3 id="2-PostImage"><a href="#2-PostImage" class="headerlink" title="2. PostImage"></a>2. <a href="https://postimg.cc/">PostImage</a></h3><p><strong>亮点</strong>：</p><ul><li>完全匿名使用</li><li>无存储限制</li><li>界面简洁</li></ul><p><strong>问题</strong>：</p><ul><li>国外服务器有时加载慢</li><li>图片可能被无故删除</li><li>无内容管理后台</li></ul><h2 id="三、自建方案折腾记"><a href="#三、自建方案折腾记" class="headerlink" title="三、自建方案折腾记"></a>三、自建方案折腾记</h2><h3 id="1-GitHub-jsDelivr"><a href="#1-GitHub-jsDelivr" class="headerlink" title="1. GitHub+jsDelivr"></a>1. GitHub+jsDelivr</h3><p><a href="https://github.com/">GitHub</a></p><p><strong>优势</strong>：</p><ul><li>完全免费</li><li>版本控制</li><li>无限存储</li></ul><p><strong>坑点</strong>：</p><ul><li>国内访问时好时坏</li><li>大文件支持有限</li><li>需要技术基础</li></ul><h3 id="2-Gitee方案"><a href="#2-Gitee方案" class="headerlink" title="2. Gitee方案"></a>2. Gitee方案</h3><p><a href="https://gitee.com/">Gitee</a></p><p><strong>使用感受</strong>：</p><ul><li>国内访问速度极快 ★★★★★</li><li>审核严格到令人发指</li><li>经常无故封禁图片</li><li>外链流量限制严格</li></ul><p><strong>惨痛经历</strong>：</p><ol><li>三次因”内容违规”被删除图片</li><li>某篇文章突然所有图片失效</li><li>客服响应慢，解封困难</li></ol><h3 id="3-GitCode方案"><a href="#3-GitCode方案" class="headerlink" title="3. GitCode方案"></a>3. GitCode方案</h3><p><a href="https://gitcode.com/">Gitcode</a></p><p><strong>惊喜</strong>：</p><ul><li>国内访问飞快</li><li>审核比Gitee宽松</li><li>免费额度充足</li></ul><p><strong>不足</strong>：</p><ul><li>单文件限制50MB</li><li>偶尔抽风</li><li>文档较少</li></ul><h2 id="四、我的终极方案"><a href="#四、我的终极方案" class="headerlink" title="四、我的终极方案"></a>四、我的终极方案</h2><p>经过反复测试，我最终采用三级存储架构：（我同时会在下面放几张图片作为示例）</p><ol><li><p>​<strong>主力图床</strong>：GitCode自建</p><ul><li>存放所有文章配图</li><li>使用PicGo客户端管理  ，这里推荐大家这样使用，但是也可以手动操作，毕竟我们是个人使用，数据量不会太大<br>  <img src="https://raw.gitcode.com/Pridelzh/blogbed/files/main/OIP-C.jpeg"></li></ul></li><li><p>​<strong>备用图床</strong>：PostImage</p><ul><li>临时图片存放</li><li>应急使用<br>  <img src="https://i.postimg.cc/59hqNVX7/842bf2950a03419da9c97742467609e6.png"></li></ul></li><li><p>​<strong>网盘备份</strong>：一刻相册</p><ul><li>重要图片备份</li><li>原始文件存储<br>  <img src="https://cdn.jsdelivr.net/gh/pridelzh/blogbed/31e0eae3ed694039857d506d9b41f24c.png"></li></ul></li></ol><h2 id="五、血泪教训总结"><a href="#五、血泪教训总结" class="headerlink" title="五、血泪教训总结"></a>五、血泪教训总结</h2><ol><li>​<strong>不要相信永久免费</strong>：多个服务后来都开始收费</li><li>​<strong>备份！备份！备份</strong>：我因此丢失过几十张图片</li><li>​<strong>关注访问速度</strong>：不同地区访问差异很大</li><li>​<strong>API支持很重要</strong>：手动上传迟早会疯</li></ol><h2 id="六、给新手的建议"><a href="#六、给新手的建议" class="headerlink" title="六、给新手的建议"></a>六、给新手的建议</h2><ol><li>从GitCode开始尝试</li><li>一定要配置PicGo工具，我这里不知道为什么，总是配置不好，所以我还是一直手动上传加复制外链</li><li>保持多个备份渠道</li><li>定期检查图片可用性</li></ol><h2 id="七、未来优化方向"><a href="#七、未来优化方向" class="headerlink" title="七、未来优化方向"></a>七、未来优化方向</h2><ol><li>研究Cloudflare R2方案</li><li>尝试自建MinIO集群</li><li>开发自动化监控脚本</li><li>如果说大家有会配置picgo的，还请教我一下</li></ol><p>最后在此重申一下，本人最终采取的方案是Picgo官方图床，配合腾讯云cos存储，和GitHub自建图床一起使用，其中腾讯云是收费的，其他的免费</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;我的图床探索之旅：从踩坑到最优解&quot;&gt;&lt;a href=&quot;#我的图床探索之旅：从踩坑到最优解&quot; class=&quot;headerlink&quot; title=&quot;我的图床探索之旅：从踩坑到最优解&quot;&gt;&lt;/a&gt;我的图床探索之旅：从踩坑到最优解&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a hr</summary>
+      
+    
+    
+    
+    <category term="开发" scheme="https://pridelizihao.github.io/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="图床" scheme="https://pridelizihao.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>self-introduction</title>
@@ -67,9 +91,9 @@
     
     <category term="学习" scheme="https://pridelizihao.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="蓝桥杯" scheme="https://pridelizihao.github.io/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
-    
     <category term="算法" scheme="https://pridelizihao.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="蓝桥杯" scheme="https://pridelizihao.github.io/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
     
   </entry>
   
@@ -157,33 +181,9 @@
     <category term="学习" scheme="https://pridelizihao.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="算法" scheme="https://pridelizihao.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
     <category term="dfs" scheme="https://pridelizihao.github.io/tags/dfs/"/>
     
-  </entry>
-  
-  <entry>
-    <title>我的图床探索之旅：从踩坑到最优解</title>
-    <link href="https://pridelizihao.github.io/2025/01/13/post2/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
-    <id>https://pridelizihao.github.io/2025/01/13/post2/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/</id>
-    <published>2025-01-13T10:29:00.000Z</published>
-    <updated>2025-05-05T06:03:13.151Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="我的图床探索之旅：从踩坑到最优解"><a href="#我的图床探索之旅：从踩坑到最优解" class="headerlink" title="我的图床探索之旅：从踩坑到最优解"></a>我的图床探索之旅：从踩坑到最优解</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>搭建个人博客时，图床的选择让我走了不少弯路。经过几天的反复测试，我终于找到了一套稳定高效的解决方案。本文将详细介绍我的探索历程，希望能帮助到有同样需求的朋友。</p><h2 id="一、云服务商方案体验"><a href="#一、云服务商方案体验" class="headerlink" title="一、云服务商方案体验"></a>一、云服务商方案体验</h2><h3 id="1-阿里云OSS"><a href="#1-阿里云OSS" class="headerlink" title="1. 阿里云OSS"></a>1. 阿里云OSS</h3><p><strong>使用体验</strong>：</p><ul><li>上传速度：★★★★☆</li><li>访问速度：★★★★★</li><li>管理界面：★★★☆☆</li></ul><p><strong>痛点</strong>：</p><ol><li>备案流程繁琐，耗时3天才完成，一般人不太容易拿到域名的备案，需要域名费用＋对象存储费用+服务器费用，其中服务器费用太过巨大</li><li>费用计算复杂，一不小心就会超支</li><li>防盗链设置不够灵活</li></ol><h3 id="2-腾讯云COS"><a href="#2-腾讯云COS" class="headerlink" title="2. 腾讯云COS"></a>2. 腾讯云COS</h3><p><strong>使用体验</strong>：</p><ul><li>上传速度：★★★★★</li><li>访问速度：★★★★☆</li><li>管理界面：★★★★☆</li></ul><p><strong>痛点</strong>：</p><ol><li>与阿里云类似需要备案</li><li>API文档不够友好</li></ol><h2 id="3-cloudfare-R2存储"><a href="#3-cloudfare-R2存储" class="headerlink" title="3.cloudfare R2存储"></a>3.cloudfare R2存储</h2><p>总结</p><ol><li>这个听说很好用，但是有一个致命缺点，你需要有信用卡或者PayPal账号</li><li>虽然国内的银联卡理论上也可以注册，但是国内的卡没有安全码，注册PayPal也有一定困难</li></ol><h2 id="二、成品图床深度评测"><a href="#二、成品图床深度评测" class="headerlink" title="二、成品图床深度评测"></a>二、成品图床深度评测</h2><h3 id="1-SM-MS"><a href="#1-SM-MS" class="headerlink" title="1. SM.MS"></a>1. <a href="https://sm.ms/">SM.MS</a></h3><p><strong>优点</strong>：</p><ul><li>开箱即用</li><li>国内访问速度快</li><li>支持API调用</li></ul><p><strong>致命缺陷</strong>：</p><ul><li>免费版5GB空间很快用完</li><li>图片管理功能简陋</li><li>不支持批量操作</li><li>这个是全外文的，感觉有种不靠谱的感觉，不建议大家使用</li></ul><h3 id="2-PostImage"><a href="#2-PostImage" class="headerlink" title="2. PostImage"></a>2. <a href="https://postimg.cc/">PostImage</a></h3><p><strong>亮点</strong>：</p><ul><li>完全匿名使用</li><li>无存储限制</li><li>界面简洁</li></ul><p><strong>问题</strong>：</p><ul><li>国外服务器有时加载慢</li><li>图片可能被无故删除</li><li>无内容管理后台</li></ul><h2 id="三、自建方案折腾记"><a href="#三、自建方案折腾记" class="headerlink" title="三、自建方案折腾记"></a>三、自建方案折腾记</h2><h3 id="1-GitHub-jsDelivr"><a href="#1-GitHub-jsDelivr" class="headerlink" title="1. GitHub+jsDelivr"></a>1. GitHub+jsDelivr</h3><p><a href="https://github.com/">GitHub</a></p><p><strong>优势</strong>：</p><ul><li>完全免费</li><li>版本控制</li><li>无限存储</li></ul><p><strong>坑点</strong>：</p><ul><li>国内访问时好时坏</li><li>大文件支持有限</li><li>需要技术基础</li></ul><h3 id="2-Gitee方案"><a href="#2-Gitee方案" class="headerlink" title="2. Gitee方案"></a>2. Gitee方案</h3><p><a href="https://gitee.com/">Gitee</a></p><p><strong>使用感受</strong>：</p><ul><li>国内访问速度极快 ★★★★★</li><li>审核严格到令人发指</li><li>经常无故封禁图片</li><li>外链流量限制严格</li></ul><p><strong>惨痛经历</strong>：</p><ol><li>三次因”内容违规”被删除图片</li><li>某篇文章突然所有图片失效</li><li>客服响应慢，解封困难</li></ol><h3 id="3-GitCode方案"><a href="#3-GitCode方案" class="headerlink" title="3. GitCode方案"></a>3. GitCode方案</h3><p><a href="https://gitcode.com/">Gitcode</a></p><p><strong>惊喜</strong>：</p><ul><li>国内访问飞快</li><li>审核比Gitee宽松</li><li>免费额度充足</li></ul><p><strong>不足</strong>：</p><ul><li>单文件限制50MB</li><li>偶尔抽风</li><li>文档较少</li></ul><h2 id="四、我的终极方案"><a href="#四、我的终极方案" class="headerlink" title="四、我的终极方案"></a>四、我的终极方案</h2><p>经过反复测试，我最终采用三级存储架构：（我同时会在下面放几张图片作为示例）</p><ol><li><p>​<strong>主力图床</strong>：GitCode自建</p><ul><li>存放所有文章配图</li><li>使用PicGo客户端管理  ，这里推荐大家这样使用，但是也可以手动操作，毕竟我们是个人使用，数据量不会太大<br>  <img src="https://raw.gitcode.com/Pridelzh/blogbed/files/main/OIP-C.jpeg"></li></ul></li><li><p>​<strong>备用图床</strong>：PostImage</p><ul><li>临时图片存放</li><li>应急使用<br>  <img src="https://i.postimg.cc/59hqNVX7/842bf2950a03419da9c97742467609e6.png"></li></ul></li><li><p>​<strong>网盘备份</strong>：一刻相册</p><ul><li>重要图片备份</li><li>原始文件存储<br>  <img src="https://cdn.jsdelivr.net/gh/pridelzh/blogbed/31e0eae3ed694039857d506d9b41f24c.png"></li></ul></li></ol><h2 id="五、血泪教训总结"><a href="#五、血泪教训总结" class="headerlink" title="五、血泪教训总结"></a>五、血泪教训总结</h2><ol><li>​<strong>不要相信永久免费</strong>：多个服务后来都开始收费</li><li>​<strong>备份！备份！备份</strong>：我因此丢失过几十张图片</li><li>​<strong>关注访问速度</strong>：不同地区访问差异很大</li><li>​<strong>API支持很重要</strong>：手动上传迟早会疯</li></ol><h2 id="六、给新手的建议"><a href="#六、给新手的建议" class="headerlink" title="六、给新手的建议"></a>六、给新手的建议</h2><ol><li>从GitCode开始尝试</li><li>一定要配置PicGo工具，我这里不知道为什么，总是配置不好，所以我还是一直手动上传加复制外链</li><li>保持多个备份渠道</li><li>定期检查图片可用性</li></ol><h2 id="七、未来优化方向"><a href="#七、未来优化方向" class="headerlink" title="七、未来优化方向"></a>七、未来优化方向</h2><ol><li>研究Cloudflare R2方案</li><li>尝试自建MinIO集群</li><li>开发自动化监控脚本</li><li>如果说大家有会配置picgo的，还请教我一下</li></ol><p>最后在此重申一下，本人最终采取的方案是Picgo官方图床，配合腾讯云cos存储，和GitHub自建图床一起使用，其中腾讯云是收费的，其他的免费</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;我的图床探索之旅：从踩坑到最优解&quot;&gt;&lt;a href=&quot;#我的图床探索之旅：从踩坑到最优解&quot; class=&quot;headerlink&quot; title=&quot;我的图床探索之旅：从踩坑到最优解&quot;&gt;&lt;/a&gt;我的图床探索之旅：从踩坑到最优解&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a hr</summary>
-      
-    
-    
-    
-    <category term="开发" scheme="https://pridelizihao.github.io/categories/%E5%BC%80%E5%8F%91/"/>
-    
-    
-    <category term="图床" scheme="https://pridelizihao.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
+    <category term="算法" scheme="https://pridelizihao.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
