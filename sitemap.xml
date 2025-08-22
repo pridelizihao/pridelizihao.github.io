@@ -2,7 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.pridelzh.top/link/index.html</loc>
+    
+    <lastmod>2025-08-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.pridelzh.top/music/index.html</loc>
+    
+    <lastmod>2025-08-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.pridelzh.top/tags/index.html</loc>
+    
+    <lastmod>2025-08-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.pridelzh.top/wordScenery/index.html</loc>
+    
+    <lastmod>2025-08-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.pridelzh.top/posts/d054201b.html</loc>
+    
+    <lastmod>2025-08-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.pridelzh.top/posts/4a345649.html</loc>
     
     <lastmod>2025-08-22</lastmod>
     
@@ -21,15 +66,6 @@
   
   <url>
     <loc>https://blog.pridelzh.top/posts/456132333.html</loc>
-    
-    <lastmod>2025-08-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.pridelzh.top/posts/43ebcb2f.html</loc>
     
     <lastmod>2025-08-22</lastmod>
     
@@ -92,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://blog.pridelzh.top/essay/index.html</loc>
+    <loc>https://blog.pridelzh.top/equipment/index.html</loc>
     
     <lastmod>2025-08-22</lastmod>
     
@@ -101,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://blog.pridelzh.top/equipment/index.html</loc>
+    <loc>https://blog.pridelzh.top/essay/index.html</loc>
     
     <lastmod>2025-08-22</lastmod>
     
@@ -120,33 +156,6 @@
   
   <url>
     <loc>https://blog.pridelzh.top/json/music.json</loc>
-    
-    <lastmod>2025-08-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.pridelzh.top/link/index.html</loc>
-    
-    <lastmod>2025-08-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.pridelzh.top/music/index.html</loc>
-    
-    <lastmod>2025-08-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.pridelzh.top/tags/index.html</loc>
     
     <lastmod>2025-08-22</lastmod>
     
@@ -245,15 +254,6 @@
   </url>
   
   <url>
-    <loc>https://blog.pridelzh.top/posts/d054201b.html</loc>
-    
-    <lastmod>2025-08-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.pridelzh.top/posts/8c023b29.html</loc>
     
     <lastmod>2025-08-22</lastmod>
@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://blog.pridelzh.top/posts/4a345649.html</loc>
+    <loc>https://blog.pridelzh.top/posts/43ebcb2f.html</loc>
     
     <lastmod>2025-08-22</lastmod>
     
@@ -397,14 +397,14 @@
   </url>
   
   <url>
-    <loc>https://blog.pridelzh.top/tags/%E5%9B%9E%E6%BA%AF/</loc>
+    <loc>https://blog.pridelzh.top/tags/%E5%89%AA%E6%9E%9D/</loc>
     <lastmod>2025-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.pridelzh.top/tags/%E5%89%AA%E6%9E%9D/</loc>
+    <loc>https://blog.pridelzh.top/tags/%E5%9B%9E%E6%BA%AF/</loc>
     <lastmod>2025-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
