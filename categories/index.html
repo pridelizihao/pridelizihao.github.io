@@ -60,7 +60,7 @@
   isHome: false,
   isHighlightShrink: true,
   isToc: false,
-  postUpdate: '2025-08-30 14:38:13',
+  postUpdate: '2025-08-30 15:30:17',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -522,7 +522,7 @@ queueMicrotask(() => {
           }
         })
 
-        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 1/(60*24))
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
         generateHtml(twikooArray)
       }).catch(function (err) {
         const $dom = document.querySelector('#card-newest-comments .aside-list')

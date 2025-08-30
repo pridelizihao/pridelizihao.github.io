@@ -482,7 +482,7 @@ queueMicrotask(() => {
           }
         })
 
-        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 1/(60*24))
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
         generateHtml(twikooArray)
       }).catch(function (err) {
         const $dom = document.querySelector('#card-newest-comments .aside-list')
