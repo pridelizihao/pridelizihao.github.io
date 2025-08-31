@@ -308,9 +308,9 @@
       
         <tags>
             
-            <tag> LR(1)文法 </tag>
-            
             <tag> LR分析 </tag>
+            
+            <tag> LR(1)文法 </tag>
             
             <tag> LR(1)分析 </tag>
             
