@@ -260,10 +260,10 @@ if (true) {
 <p>下面是一个例子</p>
 <h2 id="五、id1-id-id的归约语法分析"><a href="#五、id1-id-id的归约语法分析" class="headerlink" title="五、id1 * id + id的归约语法分析"></a>五、id1 * id + id的归约语法分析</h2><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.gitcode.com/Pridelzh/blogbed/raw/5cc4c1121199929e0ad213f191bad409dea13bc4/3623287-20260208235255387-1044416161.png" alt="image"></p>
 <p>关于这个流程，大家可以仔细关注一下，通过这个流程，应该可以大致明白移进——规约的过程</p>
-<h2 id="六、移进——归约分析的冲突"><a href="#六、移进——归约分析的冲突" class="headerlink" title="六、移进——归约分析的冲突"></a>六、移进——归约分析的冲突</h2><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2024.cnblogs.com/blog/3623287/202602/3623287-20260208235255357-1513202435.png" alt="image"></p>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2024.cnblogs.com/blog/3623287/202602/3623287-20260208235255375-1072712860.png" alt="image"></p>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2024.cnblogs.com/blog/3623287/202602/3623287-20260208235255354-788485604.png" alt="image"></p>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2024.cnblogs.com/blog/3623287/202602/3623287-20260208235255352-2124991769.png" alt="image"></p>
+<h2 id="六、移进——归约分析的冲突"><a href="#六、移进——归约分析的冲突" class="headerlink" title="六、移进——归约分析的冲突"></a>六、移进——归约分析的冲突</h2><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.gitcode.com/Pridelzh/blogbed/raw/aee650be259d454d5e71d6f18f2e4996034220c4/3623287-20260208235255357-1513202435.png" alt="image"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.gitcode.com/Pridelzh/blogbed/raw/57e0655d965411058e5eb1a757560a4e0e79b787/3623287-20260208235255375-1072712860.png" alt="image"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.gitcode.com/Pridelzh/blogbed/raw/57e0655d965411058e5eb1a757560a4e0e79b787/3623287-20260208235255354-788485604.png" alt="image"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.gitcode.com/Pridelzh/blogbed/raw/57e0655d965411058e5eb1a757560a4e0e79b787/3623287-20260208235255352-2124991769.png" alt="image"></p>
 <h2 id="七、LR-0-分析表的构造"><a href="#七、LR-0-分析表的构造" class="headerlink" title="七、LR(0)分析表的构造"></a>七、LR(0)分析表的构造</h2><p>LR(0)分析表的构造过程涉及构建一个表格，用于指导编译器在分析源代码时确定下一步的动作。这个表格是基于LR(0)自动机，它是对文法的一个抽象表示，用于处理语法分析过程中的不确定性和冲突。以下是LR(0)分析表构造的基本步骤：</p>
 <ol>
 <li><p>定义文法：首先，需要有一个形式化的上下文无关文法，它描述了源代码的语法结构。</p>
@@ -289,14 +289,14 @@ if (true) {
 </ol>
 <p>百读不如一做，下面是一个例子，读懂了，就知道该怎么做了</p>
 <p>求表达式的自动机</p>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2024.cnblogs.com/blog/3623287/202602/3623287-20260208235255404-2016637898.png"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.gitcode.com/Pridelzh/blogbed/raw/c774220e0495d1f403b7f54339f3a0692838f056/3623287-20260208235255404-2016637898.png"></p>
 <p>关键步骤讲解，本题就是，我们先添加一个其实符号S’，之后就按照要求不断扩展，不断读取，写出这个DFA就可以了</p>
 <p>写出增广文法，&#x3D;&#x3D;如果点后是一个非终结符，就要将该非终结符的所有移进状态加进去&#x3D;&#x3D;，对应上文的4，之后只剩终结符了，就不用添加了，然后再不断读取后面的一个符号，即将·移动到下一个字符的后面，根据字符的不同分类</p>
 <p>S-&gt;bBB<br>S-&gt;·bBB 移进<br>S-&gt;bBB· 归约<br>S-&gt;b·BB 待约<br>S-&gt;bB·B 待约</p>
 <p>根据文法和自动机来填写LR(0)语法分析表，根据上一个结果的自动机的状态，action中写终结符和$，goto中写非终结符，有三种选择，移进s，归约r，接受acc，一般情况下，状态1对应的 $要写上acc，如果有归约的状态就写上ri</p>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2024.cnblogs.com/blog/3623287/202602/3623287-20260208235255341-9179344.png" alt="Screenshot_20250508_173152_tv.danmaku.bilibilihd.jpg"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.gitcode.com/Pridelzh/blogbed/raw/c774220e0495d1f403b7f54339f3a0692838f056/3623287-20260208235255360-1592726534.png" alt="Screenshot_20250508_173152_tv.danmaku.bilibilihd.jpg"></p>
 <p>SLR(1)和LR(0)的语法分析表的区别就是，SLR(1)仅在FOLLOW集下写ri，而LR(0)是在action整行写下ri</p>
-<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img2024.cnblogs.com/blog/3623287/202602/3623287-20260208235255360-1592726534.png" alt="Screenshot_20250508_173702_tv.danmaku.bilibilihd.jpg"></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://raw.gitcode.com/Pridelzh/blogbed/raw/c774220e0495d1f403b7f54339f3a0692838f056/3623287-20260208235255341-9179344.png" alt="Screenshot_20250508_173702_tv.danmaku.bilibilihd.jpg"></p>
 <h2 id="八、项目闭包集"><a href="#八、项目闭包集" class="headerlink" title="八、项目闭包集"></a>八、项目闭包集</h2><p>项目集闭包<br>项目集闭包的概念是在编译原理的LR(0)分析表构造中引入的。在LR(0)分析中，一个项目是一个文法产生式和一个点的组合，形如A -&gt; α.β，其中A是非终结符，α和β是符号串（可以是终结符或非终结符），点.表示当前分析的位置。项目集是一个项目的集合，而项目集的闭包则包含了所有可以从初始项目集通过零次或多次应用产生式的右侧推导而到达的项目。</p>
 <p>计算项目集闭包的过程包括：</p>
 <ol>
